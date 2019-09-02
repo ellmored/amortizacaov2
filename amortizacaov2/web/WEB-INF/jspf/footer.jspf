@@ -1,0 +1,31 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<style>
+#lu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#la {
+  float: left;
+}
+
+#la a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#la a:hover {
+  background-color: #111;
+}
+</style>
+<ul id="lu">
+    <li id="la"><a href="index.jsp">Trabalho de POO</a></li>
+  
+</ul>
